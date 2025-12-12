@@ -1,0 +1,4 @@
+CUSTOMER_ID,FIRST_NAME,LAST_NAME,EMAIL,CITY,COUNTRY
+C001,John,Doe,john.doe@example.com,New York,USA
+C002,Priya,Sharma,priya@example.com,Delhi,India
+C003,Ahmed,Khan,ahmed@example.com,Dubai,UAE
