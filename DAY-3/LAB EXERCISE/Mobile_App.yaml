@@ -1,0 +1,30 @@
+openapi: "3.0.0"
+components:
+  schemas:
+    mobile_app_uninstalls:
+      type: object
+      properties:
+        CustomerID:
+          type: string
+          example: "12345"
+        uninstall_date:
+          type: string
+          format: datetime
+          example: "2023-10-25"
+    mobile_app_catalog:
+      type: object
+      properties:
+        CustomerID:
+            type: string
+            example: "12345"
+        price:
+          type: number
+          format: float
+          example: 100.50
+        added_date:
+          type: string
+          format: datetime
+          example: "2023-10-25"
+        product_name:
+          type: string
+          example: "tshirt"
